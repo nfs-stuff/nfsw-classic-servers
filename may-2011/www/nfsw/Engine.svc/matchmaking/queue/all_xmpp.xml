@@ -1,0 +1,6 @@
+<message from='nfsw.engine.engine1.victoryworker.0@89.234.47.91/EA_Chat'
+         id='JN_2205260' to='nfsw.22418201@89.234.47.91'>
+    <body>&lt;response status='1' ticket='0'&gt;&lt;LobbyInvite
+        xmlns:i="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://schemas.datacontract.org/2004/07/Victory.Service"&gt;&lt;EventId&gt;123&lt;/EventId&gt;&lt;InviteLifetimeInMilliseconds&gt;10000&lt;/InviteLifetimeInMilliseconds&gt;&lt;InvitedByPersonaId&gt;0&lt;/InvitedByPersonaId&gt;&lt;IsPrivate&gt;false&lt;/IsPrivate&gt;&lt;LobbyInviteId&gt;692751673&lt;/LobbyInviteId&gt;&lt;/LobbyInvite&gt;&lt;/response&gt;</body>
+</message>

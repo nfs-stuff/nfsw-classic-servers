@@ -1,0 +1,108 @@
+<ArrayOfProductTrans xmlns="http://schemas.datacontract.org/2004/07/Victory.DataLayer.Serialization"
+                     xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>ALL CARS</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>879977152</Hash>
+        <Icon>PART_RI_RACINGHART_1_17</Icon>
+        <Level>0</Level>
+        <LongDescription/>
+        <Price>14000.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>SRV-EPWHEEL1</ProductId>
+        <ProductTitle>STYLE A 17" WHEELS</ProductTitle>
+        <ProductType>VISUALPART</ProductType>
+        <SecondaryIcon/>
+        <UseCount>1</UseCount>
+        <VisualStyle/>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>ALL CARS</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>880049026</Hash>
+        <Icon>PART_RI_RACINGHART_1_19</Icon>
+        <Level>0</Level>
+        <LongDescription/>
+        <Price>15400.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>SRV-EPWHEEL2</ProductId>
+        <ProductTitle>STYLE A 19" WHEELS</ProductTitle>
+        <ProductType>VISUALPART</ProductType>
+        <SecondaryIcon/>
+        <UseCount>1</UseCount>
+        <VisualStyle/>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>ALL CARS</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>880911514</Hash>
+        <Icon>PART_RI_RACINGHART_1_20</Icon>
+        <Level>0</Level>
+        <LongDescription/>
+        <Price>16700.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>SRV-EPWHEEL3</ProductId>
+        <ProductTitle>STYLE A 20" WHEELS</ProductTitle>
+        <ProductType>VISUALPART</ProductType>
+        <SecondaryIcon/>
+        <UseCount>1</UseCount>
+        <VisualStyle/>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>ALL CARS</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>880013089</Hash>
+        <Icon>PART_RI_RACINGHART_1_18</Icon>
+        <Level>0</Level>
+        <LongDescription/>
+        <Price>14700.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>SRV-EPWHEEL4</ProductId>
+        <ProductTitle>STYLE A 18" WHEELS</ProductTitle>
+        <ProductType>VISUALPART</ProductType>
+        <SecondaryIcon/>
+        <UseCount>1</UseCount>
+        <VisualStyle/>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>ALL CARS</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>880947451</Hash>
+        <Icon>PART_RI_RACINGHART_1_21</Icon>
+        <Level>0</Level>
+        <LongDescription/>
+        <Price>17400.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>SRV-EPWHEEL5</ProductId>
+        <ProductTitle>STYLE A 21" WHEELS</ProductTitle>
+        <ProductType>VISUALPART</ProductType>
+        <SecondaryIcon/>
+        <UseCount>1</UseCount>
+        <VisualStyle/>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+</ArrayOfProductTrans>

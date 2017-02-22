@@ -1,0 +1,124 @@
+<ArrayOfProductTrans xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization"
+                     xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <ProductTrans>
+        <BundleItems>
+            <ProductTrans>
+                <BundleItems i:nil="true"/>
+                <CategoryId i:nil="true"/>
+                <Currency>CASH</Currency>
+                <Description>GM_CATALOG_0000053F,1</Description>
+                <DurationMinute>0</DurationMinute>
+                <Hash>438487327</Hash>
+                <Icon/>
+                <Level>0</Level>
+                <LongDescription>GM_CATALOG_0000053F,1</LongDescription>
+                <Price>0.0000</Price>
+                <Priority>0</Priority>
+                <ProductId>NFSW-NA:EB6CD4AF</ProductId>
+                <ProductTitle>GM_CATALOG_0000053E,1</ProductTitle>
+                <ProductType>LUCKYDRAWCONTEXT</ProductType>
+                <UseCount>1</UseCount>
+                <VisualStyle>0</VisualStyle>
+                <WebIcon/>
+                <WebLocation/>
+            </ProductTrans>
+            <ProductTrans>
+                <BundleItems i:nil="true"/>
+                <CategoryId i:nil="true"/>
+                <Currency>CASH</Currency>
+                <Description>GM_CATALOG_0000053F,1</Description>
+                <DurationMinute>0</DurationMinute>
+                <Hash>438487327</Hash>
+                <Icon/>
+                <Level>0</Level>
+                <LongDescription>GM_CATALOG_0000053F,1</LongDescription>
+                <Price>0.0000</Price>
+                <Priority>0</Priority>
+                <ProductId>NFSW-NA:EB6CD495</ProductId>
+                <ProductTitle>GM_CATALOG_0000053E,1</ProductTitle>
+                <ProductType>LUCKYDRAWCONTEXT</ProductType>
+                <UseCount>1</UseCount>
+                <VisualStyle>0</VisualStyle>
+                <WebIcon/>
+                <WebLocation/>
+            </ProductTrans>
+            <ProductTrans>
+                <BundleItems i:nil="true"/>
+                <CategoryId i:nil="true"/>
+                <Currency>CASH</Currency>
+                <Description>GM_CATALOG_0000053F,1</Description>
+                <DurationMinute>0</DurationMinute>
+                <Hash>438487327</Hash>
+                <Icon/>
+                <Level>0</Level>
+                <LongDescription>GM_CATALOG_0000053F,1</LongDescription>
+                <Price>0.0000</Price>
+                <Priority>0</Priority>
+                <ProductId>NFSW-NA:EB6CD496</ProductId>
+                <ProductTitle>GM_CATALOG_0000053E,1</ProductTitle>
+                <ProductType>LUCKYDRAWCONTEXT</ProductType>
+                <UseCount>1</UseCount>
+                <VisualStyle>0</VisualStyle>
+                <WebIcon/>
+                <WebLocation/>
+            </ProductTrans>
+            <ProductTrans>
+                <BundleItems i:nil="true"/>
+                <CategoryId i:nil="true"/>
+                <Currency>CASH</Currency>
+                <Description>GM_CATALOG_0000053F,1</Description>
+                <DurationMinute>0</DurationMinute>
+                <Hash>438487327</Hash>
+                <Icon/>
+                <Level>0</Level>
+                <LongDescription>GM_CATALOG_0000053F,1</LongDescription>
+                <Price>0.0000</Price>
+                <Priority>0</Priority>
+                <ProductId>NFSW-NA:EB6CD4AE</ProductId>
+                <ProductTitle>GM_CATALOG_0000053E,1</ProductTitle>
+                <ProductType>LUCKYDRAWCONTEXT</ProductType>
+                <UseCount>1</UseCount>
+                <VisualStyle>0</VisualStyle>
+                <WebIcon/>
+                <WebLocation/>
+            </ProductTrans>
+            <ProductTrans>
+                <BundleItems i:nil="true"/>
+                <CategoryId i:nil="true"/>
+                <Currency>CASH</Currency>
+                <Description>GM_CATALOG_0000053F,1</Description>
+                <DurationMinute>0</DurationMinute>
+                <Hash>438487327</Hash>
+                <Icon/>
+                <Level>0</Level>
+                <LongDescription>GM_CATALOG_0000053F,1</LongDescription>
+                <Price>0.0000</Price>
+                <Priority>0</Priority>
+                <ProductId>NFSW-NA:EB6CD4B0</ProductId>
+                <ProductTitle>GM_CATALOG_0000053E,1</ProductTitle>
+                <ProductType>LUCKYDRAWCONTEXT</ProductType>
+                <UseCount>1</UseCount>
+                <VisualStyle>0</VisualStyle>
+                <WebIcon/>
+                <WebLocation/>
+            </ProductTrans>
+        </BundleItems>
+        <CategoryId i:nil="true"/>
+        <Currency>CASH</Currency>
+        <Description>GM_CATALOG_00000611,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>0</Hash>
+        <Icon>prod_booster_pack</Icon>
+        <Level>0</Level>
+        <LongDescription>GM_CATALOG_00000611,1</LongDescription>
+        <Price>50000.0000</Price>
+        <Priority>11</Priority>
+        <ProductId>NFSW-NA:251D16E3</ProductId>
+        <ProductTitle>GM_CATALOG_00000581,1</ProductTitle>
+        <ProductType>BUNDLE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>1</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+</ArrayOfProductTrans>

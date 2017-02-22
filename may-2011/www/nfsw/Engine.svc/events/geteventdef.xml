@@ -1,0 +1,35 @@
+<EventDefinition
+        xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization.Event"
+        xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <EngagePoint
+            xmlns:a="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization">
+        <a:X>4757.393</a:X>
+        <a:Y>739.0576</a:Y>
+        <a:Z>44.51709</a:Z>
+    </EngagePoint>
+    <EventId>79</EventId>
+    <EventIdString>tn.3.1</EventIdString>
+    <EventLocalization>953952105</EventLocalization>
+    <EventModeDescriptionLocalization>1634433605</EventModeDescriptionLocalization>
+    <EventModeIcon>GameModeIcon_Circuit</EventModeIcon>
+    <EventModeId>4</EventModeId>
+    <EventModeLocalization>1165983530</EventModeLocalization>
+    <IsEnabled>true</IsEnabled>
+    <Laps>2</Laps>
+    <Length>6</Length>
+    <MaxEntrants>8</MaxEntrants>
+    <MaxLevel>50</MaxLevel>
+    <MaxTier>4</MaxTier>
+    <MinEntrants>2</MinEntrants>
+    <MinLevel>4</MinLevel>
+    <MinTier>1</MinTier>
+    <RegionLocalization>0</RegionLocalization>
+    <RewardModes
+            xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a:int>1</a:int>
+        <a:int>2</a:int>
+        <a:int>3</a:int>
+    </RewardModes>
+    <TrackLayoutMap>tn.3.1</TrackLayoutMap>
+    <TrackLocalization>953952105</TrackLocalization>
+</EventDefinition>

@@ -1,0 +1,38 @@
+<RouteEventResult xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization.Event" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<Accolades>
+    <FinalRewards>
+        <Rep>60</Rep>
+        <Tokens>240</Tokens>
+    </FinalRewards>
+    <HasLeveledUp>false</HasLeveledUp>
+    <LuckyDrawDef xmlns:a="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization.LuckyDraw">
+    <a:CardCount>5</a:CardCount>
+    <a:CardSet>LD_CARD_BLUE</a:CardSet>
+    <a:DrawsAllowed>1</a:DrawsAllowed>
+</LuckyDrawDef>
+<OriginalRewards>
+    <Rep>60</Rep>
+    <Tokens>240</Tokens>
+</OriginalRewards>
+<RewardInfo>
+    <RewardPart>
+        <RepPart>60</RepPart>
+        <RewardCategory>Rank</RewardCategory>
+        <RewardType>None</RewardType>
+        <TokenPart>240</TokenPart>
+    </RewardPart>
+</RewardInfo>
+</Accolades>
+<Durability>95</Durability>
+<EventSessionId>1337</EventSessionId>
+<Entrants>
+    <RouteEntrantResult>
+        <EventDurationInMilliseconds>126433</EventDurationInMilliseconds>
+        <FinishReason>6</FinishReason>
+        <PersonaId>RELAYPERSONA</PersonaId>
+        <Ranking>1</Ranking>
+        <BestLapDurationInMilliseconds>126433</BestLapDurationInMilliseconds>
+        <TopSpeed>57.4438</TopSpeed>
+    </RouteEntrantResult>
+</Entrants>
+</RouteEventResult>

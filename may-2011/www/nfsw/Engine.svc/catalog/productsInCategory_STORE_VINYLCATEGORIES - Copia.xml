@@ -1,0 +1,363 @@
+<ArrayOfProductTrans xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization"
+                     xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1310612</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>999.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:0013FF94</ProductId>
+        <ProductTitle>GM_CATALOG_00000601,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_COPS_HOTPURSUIT</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>975375463</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>150.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:3A230C67</ProductId>
+        <ProductTitle>GM_CATALOG_00000680,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_NUMBERS_TIOTAL</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1077565943</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>800.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:403A59F7</ProductId>
+        <ProductTitle>GM_CATALOG_00000682,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_NUMBERS_SOLO</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1209488594</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>200.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:481754D2</ProductId>
+        <ProductTitle>GM_CATALOG_00000683,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_FLAMES_KEROSENE</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1630954120</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>400.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:61366288</ProductId>
+        <ProductTitle>GM_CATALOG_00000684,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_TRIBAL_INKEE</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>1636921707</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>500.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:6191716B</ProductId>
+        <ProductTitle>GM_CATALOG_00000685,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_TRIBAL_NOMAD</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1677520347</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>150.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:9C031225</ProductId>
+        <ProductTitle>GM_CATALOG_00000686,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_PRIMITIVES_LINEAR</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1581360948</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>200.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:A1BE58CC</ProductId>
+        <ProductTitle>GM_CATALOG_00000687,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_URBAN_VANDAL</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1415837085</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>0.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:AB9C0A63</ProductId>
+        <ProductTitle>GM_CATALOG_00000688,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_NUMBERS_MERIDIAN</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-1405213586</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>800.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:AC3E246E</ProductId>
+        <ProductTitle>GM_CATALOG_00000689,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_PRIMITIVES_SHAPES</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-930928800</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>500.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:C8832760</ProductId>
+        <ProductTitle>GM_CATALOG_0000068A,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-728659978</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>1200.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:D49187F6</ProductId>
+        <ProductTitle>GM_CATALOG_0000068B,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_CAMO_MASKIROVKA</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-709890944</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>400.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:D5AFEC80</ProductId>
+        <ProductTitle>GM_CATALOG_0000068C,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_PRIMITIVES_EIKON</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-689721571</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>800.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:D6E3AF1D</ProductId>
+        <ProductTitle>GM_CATALOG_0000068D,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_PRIMITIVES_VISOR</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-688005155</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>1100.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:D6FDDFDD</ProductId>
+        <ProductTitle>GM_CATALOG_0000068E,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_TATTOO_VUDU</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-653617830</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>1500.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:D90A955A</ProductId>
+        <ProductTitle>GM_CATALOG_0000068F,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon/>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-630819107</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>500.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:DA6676DD</ProductId>
+        <ProductTitle>GM_CATALOG_00000690,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_PINSTRIPING_HATCH</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+    <ProductTrans>
+        <BundleItems i:nil="true"/>
+        <CategoryId i:nil="true"/>
+        <Currency>_NS</Currency>
+        <Description>GM_CATALOG_00000000,1</Description>
+        <DurationMinute>0</DurationMinute>
+        <Hash>-427927574</Hash>
+        <Icon/>
+        <Level>1</Level>
+        <LongDescription>GM_CATALOG_00000000,1</LongDescription>
+        <Price>150.0000</Price>
+        <Priority>0</Priority>
+        <ProductId>NFSW-NA:E67E57EA</ProductId>
+        <ProductTitle>GM_CATALOG_00000691,1</ProductTitle>
+        <ProductType>CATEGORYTYPE</ProductType>
+        <UseCount>1</UseCount>
+        <VisualStyle>0</VisualStyle>
+        <WebIcon>VINYL_CHICANE</WebIcon>
+        <WebLocation/>
+    </ProductTrans>
+</ArrayOfProductTrans>

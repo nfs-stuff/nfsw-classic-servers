@@ -1,0 +1,18 @@
+<ProductTrans xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization"
+              xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <BundleItems i:nil="true"/>
+    <CategoryId>660105072</CategoryId>
+    <Currency>_NS</Currency>
+    <Description>CATALOG_TRAFFICMAGNET_10_SHORT_DESC</Description>
+    <DurationMinute>0</DurationMinute>
+    <Hash>125509666</Hash>
+    <Icon>prod_powerup_stack_magne</Icon>
+    <Level>0</Level>
+    <LongDescription>CATALOG_TRAFFICMAGNET_10_LONG_DESC</LongDescription>
+    <Price>330.0000</Price>
+    <Priority>2</Priority>
+    <ProductId>NFSW-NA:0E10ACBA</ProductId>
+    <ProductTitle>CATALOG_TRAFFICMAGNET_10_DISPLAY_NAME</ProductTitle>
+    <ProductType>POWERUP</ProductType>
+    <UseCount>5</UseCount>
+</ProductTrans>

@@ -1,0 +1,12 @@
+<OnlineSettingTrans xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization"
+                    xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <CountdownProposal>3</CountdownProposal>
+    <DirectConnectTimeout>1000</DirectConnectTimeout>
+    <DropOutTime>15</DropOutTime>
+    <HandshakeTimeout>22</HandshakeTimeout>
+    <HeartbeatInterval>1</HeartbeatInterval>
+    <Id>1</Id>
+    <RaceLoadingTimeout>30</RaceLoadingTimeout>
+    <UDPRelayRelayBandwidthBps>9600</UDPRelayRelayBandwidthBps>
+    <UDPRelayTimeout>60000</UDPRelayTimeout>
+</OnlineSettingTrans>

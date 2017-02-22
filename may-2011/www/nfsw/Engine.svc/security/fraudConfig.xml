@@ -1,0 +1,8 @@
+<FraudConfig xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization"
+             xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <gameFileFreq>10000</gameFileFreq>
+    <moduleFreq>360003</moduleFreq>
+    <raceCheckFreq>100</raceCheckFreq>
+    <startUpFreq>1000000</startUpFreq>
+    <userID>1000000</userID>
+</FraudConfig>

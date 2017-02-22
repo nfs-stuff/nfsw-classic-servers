@@ -1,0 +1,28 @@
+<CustomCarTrans xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization"
+                xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <BaseCar>-90545772</BaseCar>
+    <Durability>100</Durability>
+    <ExpirationDate i:nil="true"/>
+    <Heat>1</Heat>
+    <Id>1000000</Id>
+    <IsPreset>false</IsPreset>
+    <Level>0</Level>
+    <Name/>
+    <OwnershipType>CustomizedCar</OwnershipType>
+    <Paints/>
+    <PerformanceParts/>
+    <PhysicsProfile>
+        <AttribHash>1309171635</AttribHash>
+        <Tier>1</Tier>
+        <Acc>69</Acc>
+        <Handling>69</Handling>
+        <TopSpeed>1337</TopSpeed>
+        <Rating>200</Rating>
+    </PhysicsProfile>
+    <ResalePrice>0</ResalePrice>
+    <RideHeightDrop>0</RideHeightDrop>
+    <SerialNumber>1</SerialNumber>
+    <Version>0</Version>
+    <Vinyls/>
+    <VisualParts/>
+</CustomCarTrans>

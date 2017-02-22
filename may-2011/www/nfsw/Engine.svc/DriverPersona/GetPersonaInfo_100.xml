@@ -1,0 +1,26 @@
+<ProfileData xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.TransferObjects.DriverPersona" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <bio i:nil="true"/>
+    <ccar>
+        <PersonaCCar>
+            <CCID>999999</CCID>
+            <Heat>2.430343</Heat>
+            <IsDefault>true</IsDefault>
+            <PersonaId>100</PersonaId>
+        </PersonaCCar>
+    </ccar>
+    <boost>750000</boost>
+    <cash>50039534</cash>
+    <clan>1</clan>
+    <clanIcon>clanIcon</clanIcon>
+    <driverIcon>12</driverIcon>
+    <level>50</level>
+    <name>FLAMINGPEACOCK</name>
+    <nickname>FLAMINGPEACOCK</nickname>
+    <percentToLevel>0</percentToLevel>
+    <personaId>100</personaId>
+    <raceTickets>100</raceTickets>
+    <rating>1000</rating>
+    <rep>0</rep>
+    <repAtCurrentLevel>0</repAtCurrentLevel>
+    <statusMessage/>
+</ProfileData>

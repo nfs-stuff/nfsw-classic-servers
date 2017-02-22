@@ -1,0 +1,113 @@
+<ArrayOfInventoryItemTrans xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization"
+                           xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <InventoryItemTrans>
+        <EntitlementTag>emergencyevade</EntitlementTag>
+        <ExpirationDate i:nil="true"/>
+        <Hash>-611661916</Hash>
+        <InventoryId>146855928</InventoryId>
+        <ProductId>NFSW-NA:25AB32F9</ProductId>
+        <RemainingUseCount>1000000</RemainingUseCount>
+        <ResellPrice>0.00000</ResellPrice>
+        <Status>ACTIVE</Status>
+        <VirtualItemType>powerup</VirtualItemType>
+    </InventoryItemTrans>
+    <InventoryItemTrans>
+        <EntitlementTag>instantcooldown</EntitlementTag>
+        <ExpirationDate i:nil="true"/>
+        <Hash>-1692359144</Hash>
+        <InventoryId>146855930</InventoryId>
+        <ProductId>NFSW-NA:4756AD3A</ProductId>
+        <RemainingUseCount>1000000</RemainingUseCount>
+        <ResellPrice>0.00000</ResellPrice>
+        <Status>ACTIVE</Status>
+        <VirtualItemType>powerup</VirtualItemType>
+    </InventoryItemTrans>
+    <InventoryItemTrans>
+        <EntitlementTag>runflattires</EntitlementTag>
+        <ExpirationDate i:nil="true"/>
+        <Hash>-537557654</Hash>
+        <InventoryId>146855931</InventoryId>
+        <ProductId>NFSW-NA:52067618</ProductId>
+        <RemainingUseCount>1000000</RemainingUseCount>
+        <ResellPrice>0.00000</ResellPrice>
+        <Status>ACTIVE</Status>
+        <VirtualItemType>powerup</VirtualItemType>
+    </InventoryItemTrans>
+    <InventoryItemTrans>
+        <EntitlementTag>ready</EntitlementTag>
+        <ExpirationDate i:nil="true"/>
+        <Hash>957701799</Hash>
+        <InventoryId>146855932</InventoryId>
+        <ProductId>NFSW-NA:61989DE5</ProductId>
+        <RemainingUseCount>1000000</RemainingUseCount>
+        <ResellPrice>0.00000</ResellPrice>
+        <Status>ACTIVE</Status>
+        <VirtualItemType>powerup</VirtualItemType>
+    </InventoryItemTrans>
+    <InventoryItemTrans>
+        <EntitlementTag>shield</EntitlementTag>
+        <ExpirationDate i:nil="true"/>
+        <Hash>-364944936</Hash>
+        <InventoryId>146855933</InventoryId>
+        <ProductId>NFSW-NA:7A90B56A</ProductId>
+        <RemainingUseCount>1000000</RemainingUseCount>
+        <ResellPrice>0.00000</ResellPrice>
+        <Status>ACTIVE</Status>
+        <VirtualItemType>powerup</VirtualItemType>
+    </InventoryItemTrans>
+    <InventoryItemTrans>
+        <EntitlementTag>trafficmagnet</EntitlementTag>
+        <ExpirationDate i:nil="true"/>
+        <Hash>125509666</Hash>
+        <InventoryId>146855934</InventoryId>
+        <ProductId>NFSW-NA:8BF8B85A</ProductId>
+        <RemainingUseCount>1000000</RemainingUseCount>
+        <ResellPrice>0.00000</ResellPrice>
+        <Status>ACTIVE</Status>
+        <VirtualItemType>powerup</VirtualItemType>
+    </InventoryItemTrans>
+    <InventoryItemTrans>
+        <EntitlementTag>slingshot</EntitlementTag>
+        <ExpirationDate i:nil="true"/>
+        <Hash>2236629</Hash>
+        <InventoryId>146855935</InventoryId>
+        <ProductId>NFSW-NA:9310400B</ProductId>
+        <RemainingUseCount>1000000</RemainingUseCount>
+        <ResellPrice>0.00000</ResellPrice>
+        <Status>ACTIVE</Status>
+        <VirtualItemType>powerup</VirtualItemType>
+    </InventoryItemTrans>
+    <InventoryItemTrans>
+        <EntitlementTag>juggernaut</EntitlementTag>
+        <ExpirationDate i:nil="true"/>
+        <Hash>1805681994</Hash>
+        <InventoryId>146855936</InventoryId>
+        <ProductId>NFSW-NA:9CD438CC</ProductId>
+        <RemainingUseCount>1000000</RemainingUseCount>
+        <ResellPrice>0.00000</ResellPrice>
+        <Status>ACTIVE</Status>
+        <VirtualItemType>powerup</VirtualItemType>
+    </InventoryItemTrans>
+    <InventoryItemTrans>
+        <EntitlementTag>onemorelap</EntitlementTag>
+        <ExpirationDate i:nil="true"/>
+        <Hash>1627606782</Hash>
+        <InventoryId>146855938</InventoryId>
+        <ProductId>NFSW-NA:C53182C8</ProductId>
+        <RemainingUseCount>1000000</RemainingUseCount>
+        <ResellPrice>0.00000</ResellPrice>
+        <Status>ACTIVE</Status>
+        <VirtualItemType>powerup</VirtualItemType>
+    </InventoryItemTrans>
+    <InventoryItemTrans>
+        <EntitlementTag>nosshot</EntitlementTag>
+        <ExpirationDate i:nil="true"/>
+        <Hash>-1681514783</Hash>
+        <InventoryId>146855940</InventoryId>
+        <ProductId>NFSW-NA:E474C12F</ProductId>
+        <RemainingUseCount>1000000</RemainingUseCount>
+        <ResellPrice>0.00000</ResellPrice>
+        <Status>ACTIVE</Status>
+        <VirtualItemType>powerup</VirtualItemType>
+    </InventoryItemTrans>
+</ArrayOfInventoryItemTrans>

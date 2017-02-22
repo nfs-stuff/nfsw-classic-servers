@@ -1,0 +1,115 @@
+<CarSlotInfoTrans xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <CarsOwnedByPersona>
+        <CustomCarTrans>
+            <BaseCar>-90545772</BaseCar>
+            <Durability>100</Durability>
+            <ExpirationDate i:nil="true"/>
+            <Heat>1</Heat>
+            <Id>999999</Id>
+            <IsPreset>false</IsPreset>
+            <Level>0</Level>
+            <Name/>
+            <OwnershipType>CustomizedCar</OwnershipType>
+            <Paints/>
+            <PerformanceParts/>
+            <PhysicsProfile>
+                <AttribHash>2329071357</AttribHash>
+                <Tier>1</Tier>
+                <Acc>69</Acc>
+                <Handling>69</Handling>
+                <TopSpeed>1337</TopSpeed>
+                <Rating>200</Rating>
+            </PhysicsProfile>
+            <ResalePrice>0</ResalePrice>
+            <RideHeightDrop>0</RideHeightDrop>
+            <SerialNumber>1</SerialNumber>
+            <Version>0</Version>
+            <Vinyls/>
+            <VisualParts/>
+        </CustomCarTrans>
+    </CarsOwnedByPersona>
+    <DefaultOwnedCarIndex>0</DefaultOwnedCarIndex>
+    <ObtainableSlots>
+        <ProductTrans>
+            <BundleItems i:nil="true"/>
+            <CategoryId i:nil="true"/>
+            <Currency>CASH</Currency>
+            <Description>GM_CATALOG_000000E0,1</Description>
+            <DurationMinute>0</DurationMinute>
+            <Hash>-1143680669</Hash>
+            <Icon>128_cash</Icon>
+            <Level>0</Level>
+            <LongDescription>GM_CATALOG_000000E0,1</LongDescription>
+            <Price>0.0000</Price>
+            <Priority>0</Priority>
+            <ProductId>NFSW-NA:044EC292</ProductId>
+            <ProductTitle>GM_CATALOG_000000E0,1</ProductTitle>
+            <ProductType>CARSLOT</ProductType>
+            <UseCount>1</UseCount>
+            <VisualStyle>0</VisualStyle>
+            <WebIcon/>
+            <WebLocation/>
+        </ProductTrans>
+        <ProductTrans>
+            <BundleItems i:nil="true"/>
+            <CategoryId i:nil="true"/>
+            <Currency>CASH</Currency>
+            <Description>GM_CATALOG_000000E0,1</Description>
+            <DurationMinute>0</DurationMinute>
+            <Hash>-1143680669</Hash>
+            <Icon>128_cash</Icon>
+            <Level>0</Level>
+            <LongDescription>GM_CATALOG_000000E0,1</LongDescription>
+            <Price>0.0000</Price>
+            <Priority>0</Priority>
+            <ProductId>NFSW-NA:044EC293</ProductId>
+            <ProductTitle>GM_CATALOG_000000E0,1</ProductTitle>
+            <ProductType>CARSLOT</ProductType>
+            <UseCount>1</UseCount>
+            <VisualStyle>0</VisualStyle>
+            <WebIcon/>
+            <WebLocation/>
+        </ProductTrans>
+        <ProductTrans>
+            <BundleItems i:nil="true"/>
+            <CategoryId i:nil="true"/>
+            <Currency>CASH</Currency>
+            <Description>GM_CATALOG_000000E0,1</Description>
+            <DurationMinute>0</DurationMinute>
+            <Hash>-1143680669</Hash>
+            <Icon>128_cash</Icon>
+            <Level>12</Level>
+            <LongDescription>GM_CATALOG_000000E0,1</LongDescription>
+            <Price>0.0000</Price>
+            <Priority>0</Priority>
+            <ProductId>NFSW-NA:044EC294</ProductId>
+            <ProductTitle>GM_CATALOG_000000E0,1</ProductTitle>
+            <ProductType>CARSLOT</ProductType>
+            <UseCount>1</UseCount>
+            <VisualStyle>0</VisualStyle>
+            <WebIcon/>
+            <WebLocation/>
+        </ProductTrans>
+        <ProductTrans>
+            <BundleItems i:nil="true"/>
+            <CategoryId i:nil="true"/>
+            <Currency>_NS</Currency>
+            <Description>GM_CATALOG_000000E0,1</Description>
+            <DurationMinute>0</DurationMinute>
+            <Hash>-1143680669</Hash>
+            <Icon>128_cash</Icon>
+            <Level>0</Level>
+            <LongDescription>GM_CATALOG_000000E0,1</LongDescription>
+            <Price>500.0000</Price>
+            <Priority>0</Priority>
+            <ProductId>NFSW-NA:BBD4D163</ProductId>
+            <ProductTitle>GM_CATALOG_000000E0,1</ProductTitle>
+            <ProductType>CARSLOT</ProductType>
+            <UseCount>1</UseCount>
+            <VisualStyle>0</VisualStyle>
+            <WebIcon/>
+            <WebLocation/>
+        </ProductTrans>
+    </ObtainableSlots>
+    <OwnedCarSlotsCount>2</OwnedCarSlotsCount>
+</CarSlotInfoTrans>

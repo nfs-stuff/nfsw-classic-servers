@@ -1,0 +1,91 @@
+<UserInfo xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.TransferObjects.User" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <defaultPersonaIdx>0</defaultPersonaIdx>
+    <personas>
+        <ProfileData>
+            <bio i:nil="true"/>
+            <boost>100000</boost>
+            <cash>50039534</cash>
+            <ccar>
+                <PersonaCCar>
+                    <CCID>999999</CCID>
+                    <Heat>1</Heat>
+                    <IsDefault>true</IsDefault>
+                    <PersonaId>100</PersonaId>
+                </PersonaCCar>
+            </ccar>
+            <clan>1</clan>
+            <clanIcon>clanIcon</clanIcon>
+            <displayName>FLAMINGPEACOCK</displayName>
+            <driverExpLevel>50</driverExpLevel>
+            <driverIcon>12</driverIcon>
+            <language i:nil="true"/>
+            <level>50</level>
+            <nickName>FlamingPeacock</nickName>
+            <percentToLevel>7.288889</percentToLevel>
+            <personaId>100</personaId>
+            <raceTickets>100</raceTickets>
+            <rating>950.94999999999993</rating>
+            <rep>3789</rep>
+            <repAtCurrentLevel>164</repAtCurrentLevel>
+            <status>ACTIVE</status>
+        </ProfileData>
+        <ProfileData>
+            <bio i:nil="true"/>
+            <boost>100000</boost>
+            <cash>50000000</cash>
+            <ccar>
+                <PersonaCCar>
+                    <CCID>999999</CCID>
+                    <Heat>1</Heat>
+                    <IsDefault>true</IsDefault>
+                    <PersonaId>200</PersonaId>
+                </PersonaCCar>
+            </ccar>
+            <clan>1</clan>
+            <clanIcon>clanIcon</clanIcon>
+            <displayName>BETASERVER</displayName>
+            <driverExpLevel>50</driverExpLevel>
+            <driverIcon>17</driverIcon>
+            <language i:nil="true"/>
+            <level>60</level>
+            <nickName>BetaServer</nickName>
+            <percentToLevel>29.288889</percentToLevel>
+            <personaId>200</personaId>
+            <raceTickets>100</raceTickets>
+            <rating>950.94999999999993</rating>
+            <rep>3789</rep>
+            <repAtCurrentLevel>164</repAtCurrentLevel>
+        </ProfileData>
+    </personas>
+    <user>
+        <address1 i:nil="true"/>
+        <address2 i:nil="true"/>
+        <country i:nil="true"/>
+        <dateCreated i:nil="true"/>
+        <dob i:nil="true"/>
+        <email i:nil="true"/>
+        <emailStatus i:nil="true"/>
+        <firstName i:nil="true"/>
+        <fullGameAccess>true</fullGameAccess>
+        <gender i:nil="true"/>
+        <idDigits i:nil="true"/>
+        <isComplete>true</isComplete>
+        <landlinePhone i:nil="true"/>
+        <language i:nil="true"/>
+        <lastAuthDate i:nil="true"/>
+        <lastName i:nil="true"/>
+        <mobile i:nil="true"/>
+        <nickname>BetaServer</nickname>
+        <postalCode i:nil="true"/>
+        <realName i:nil="true"/>
+        <reasonCode i:nil="true"/>
+        <remoteUserId>1000000</remoteUserId>
+        <securityToken>cf24841b-a1bb-45a1-9b3e-10f454eba303</securityToken>
+        <starterPackEntitlementTag>NFSW_FULL_GAMEPLAY</starterPackEntitlementTag>
+        <status i:nil="true"/>
+        <subscribeMsg>false</subscribeMsg>
+        <tosVersion i:nil="true"/>
+        <userId>1000000</userId>
+        <username i:nil="true"/>
+    </user>
+</UserInfo>

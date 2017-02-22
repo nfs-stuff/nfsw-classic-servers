@@ -1,0 +1,7 @@
+<chatServer xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.TransferObjects.Session"
+            xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <channel>1</channel>
+    <channelCount>2</channelCount>
+    <ip>192.168.6.2</ip>
+    <prefix>nfsw</prefix>
+</chatServer>

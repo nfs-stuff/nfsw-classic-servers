@@ -1,0 +1,8 @@
+<ArrayOfServerConfigTrans xmlns="http://schemas.datacontract.org/2004/07/EA.NFSWO.ENGINE.DataLayer.Serialization"
+                          xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <ServerConfigTrans>
+        <Id>3</Id>
+        <RebroadcasterHost>localhost</RebroadcasterHost>
+        <RebroadcasterPort>5223</RebroadcasterPort>
+    </ServerConfigTrans>
+</ArrayOfServerConfigTrans>
