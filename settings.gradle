@@ -1,0 +1,5 @@
+rootProject.name = 'classic-nfsw-servers'
+
+include 'common'
+include 'may-2011'
+
