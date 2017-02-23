@@ -1,17 +1,10 @@
 package me.leorblx.classicnfsw.http.controller;
 
 import me.leorblx.classicnfsw.core.Router;
-import me.leorblx.classicnfsw.jaxb.ChatRoomType;
-import me.leorblx.classicnfsw.jaxb.ChatServerType;
-import me.leorblx.classicnfsw.jaxb.util.MarshalXML;
-
-import java.util.Arrays;
 
 public class Session extends Router
 {
 	private static String xmppIp = "127.0.0.1";
-
-	private static int xmppPort = 5222;
 
 	private static String xmppServerType = "Offline";
 
@@ -29,14 +22,6 @@ public class Session extends Router
 		Session.xmppIp = xmppIp;
 	}
 
-	public static int getXmppPort() {
-		return xmppPort;
-	}
-
-	public static void setXmppPort(int xmppPort) {
-		Session.xmppPort = xmppPort;
-	}
-
 	public static String getXmppServerType() {
 		return xmppServerType;
 	}
@@ -44,5 +29,4 @@ public class Session extends Router
 	public static void setXmppServerType(String xmppServerType) {
 		Session.xmppServerType = xmppServerType;
 	}
-
 }

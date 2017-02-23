@@ -8,32 +8,15 @@ import java.util.Map;
 public class Configuration
 {
     private String xmppIp;
-    private int xmppPort = 5222;
 
     @SerializedName("debug")
     private boolean debugEnabled;
-
-    @SerializedName("gzip")
-    private boolean gzipEnabled;
-
-    @SerializedName("commerceEnabled")
-    private boolean commerceEnabled;
 
     private int httpPort;
 
     private String openfireToken;
 
     private String xmppServerType = "offline";
-
-    public int getXmppPort()
-    {
-        return xmppPort;
-    }
-
-    public void setXmppPort(int xmppPort)
-    {
-        this.xmppPort = xmppPort;
-    }
 
     public void setXmppIp(String xmppIp)
     {
@@ -65,26 +48,6 @@ public class Configuration
         this.httpPort = httpPort;
     }
 
-    public boolean isGzipEnabled()
-    {
-        return gzipEnabled;
-    }
-
-    public void setGzipEnabled(boolean gzipEnabled)
-    {
-        this.gzipEnabled = gzipEnabled;
-    }
-
-    public boolean isCommerceEnabled()
-    {
-        return commerceEnabled;
-    }
-
-    public void setCommerceEnabled(boolean commerceEnabled)
-    {
-        this.commerceEnabled = commerceEnabled;
-    }
-
     public String getOpenfireToken()
     {
         return openfireToken;
@@ -111,7 +74,6 @@ public class Configuration
 
         // generic XMPP
         map.put("xmppIp", getXmppIp());
-        map.put("xmppPort", getXmppPort());
         map.put("xmppServerType", getXmppServerType());
 
 //        map.put("openFireRestPort", getOpenFireRestPort());
@@ -119,8 +81,6 @@ public class Configuration
 
         // etc
         map.put("debug", isDebugEnabled());
-        map.put("gzip", isGzipEnabled());
-        map.put("commerceEnabled", isCommerceEnabled());
         map.put("httpPort", getHttpPort());
 
         return map;

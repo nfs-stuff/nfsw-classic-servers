@@ -31,6 +31,6 @@ dependencies {
     compile group: 'org.eclipse.jetty', name: 'jetty-servlet', version: jettyVersion
     compile group: 'org.eclipse.jetty', name: 'jetty-server', version: '9.3.0.M1'
 
-    runtime "ch.qos.logback:logback-classic:$logbackVersion"
-    runtime "ch.qos.logback:logback-core:$logbackVersion"
+    compile "ch.qos.logback:logback-classic:$logbackVersion"
+    compile "ch.qos.logback:logback-core:$logbackVersion"
 }

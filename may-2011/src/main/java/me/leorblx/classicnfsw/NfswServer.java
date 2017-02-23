@@ -1,6 +1,9 @@
 package me.leorblx.classicnfsw;
 
+import me.leorblx.classicnfsw.core.Configuration;
+import me.leorblx.classicnfsw.core.ConfigurationManager;
 import me.leorblx.classicnfsw.http.HttpSrv;
+import me.leorblx.classicnfsw.http.controller.Session;
 import me.leorblx.classicnfsw.xmpp.XmppSrv;
 import org.eclipse.jetty.server.Server;
 import org.slf4j.Logger;
@@ -14,7 +17,12 @@ public class NfswServer
     {
         System.setProperty("jsse.enableCBCProtection", "false");
 
-        Server server = new Server(1337);
+        Configuration configuration = ConfigurationManager.getInstance().getConfiguration();
+
+        Session.setXmppIp(configuration.getXmppIp());
+        Session.setXmppServerType(configuration.getXmppServerType());
+        
+        Server server = new Server(configuration.getHttpPort());
         server.setHandler(new HttpSrv());
         
         try {

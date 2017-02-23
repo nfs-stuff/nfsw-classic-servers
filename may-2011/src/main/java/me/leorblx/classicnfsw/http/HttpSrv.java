@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import me.leorblx.classicnfsw.core.HttpState;
 import me.leorblx.classicnfsw.core.Router;
 import me.leorblx.classicnfsw.core.XmlUtils;
+import me.leorblx.classicnfsw.http.controller.Session;
 import org.eclipse.jetty.server.HttpOutput;
 import org.eclipse.jetty.server.Request;
 import org.eclipse.jetty.server.Server;
@@ -101,7 +102,8 @@ public class HttpSrv extends GzipHandler
                 content = "Not found";
             }
             
-            content = content.replace("RELAYPERSONA", HttpState.getPersonaId().toString());
+            content = content.replace("RELAYPERSONA", HttpState.getPersonaId().toString())
+                    .replace("{xmppIp}", Session.getXmppIp());
 
             response.getOutputStream().write(content.getBytes(StandardCharsets.UTF_8));
             response.getOutputStream().flush();

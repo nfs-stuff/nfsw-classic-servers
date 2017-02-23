@@ -2,6 +2,6 @@
             xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
     <channel>1</channel>
     <channelCount>2</channelCount>
-    <ip>192.168.6.2</ip>
+    <ip>{xmppIp}</ip>
     <prefix>nfsw</prefix>
 </chatServer>

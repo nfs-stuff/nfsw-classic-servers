@@ -1,6 +1,7 @@
 package me.leorblx.classicnfsw.http.controller;
 
 import me.leorblx.classicnfsw.WorldBaskets;
+import me.leorblx.classicnfsw.WorldCommerce;
 import me.leorblx.classicnfsw.core.Router;
 import me.leorblx.classicnfsw.core.XmlUtils;
 import me.leorblx.classicnfsw.jaxb.*;
@@ -43,7 +44,7 @@ public class Personas extends Router
         final String[] split = getTarget().split("/");
         String action = split[6];
         Long hash = Long.valueOf(split[7]);
-        
+
         if (!action.equals("activated")) return "";
 
         XMPP_ResponseTypePowerupActivated powerupActivatedResponse = new XMPP_ResponseTypePowerupActivated();
@@ -52,7 +53,7 @@ public class Personas extends Router
         powerupActivated.setTargetPersonaId(Long.valueOf(getParam("targetId")));
         powerupActivated.setPersonaId(getLoggedPersonaId());
         powerupActivatedResponse.setPowerupActivated(powerupActivated);
-        
+
         for (String receiver : getParam("receivers").split("-")) {
             Long receiverPersonaId = Long.valueOf(receiver);
             if (receiverPersonaId > 10) {
@@ -74,7 +75,15 @@ public class Personas extends Router
 
     public String commerce()
     {
-        return "";
+        String commerceXml = readInputStream();
+
+        CommerceSessionResultTransType commerceSessionResultTransType = new CommerceSessionResultTransType();
+        commerceSessionResultTransType.setUpdatedCar(new WorldCommerce().save(commerceXml));
+        commerceSessionResultTransType.setInvalidBasket("");
+        commerceSessionResultTransType.setInventoryItems(new InventoryItemsType());
+        commerceSessionResultTransType.setStatus("Success");
+        
+        return XmlUtils.marshal(commerceSessionResultTransType);
     }
 
     public String baskets()
@@ -96,15 +105,15 @@ public class Personas extends Router
 
         commerceResultTransType.setPurchasedCars(purchasedCarsType);
         commerceResultTransType.setStatus("Success");
-        
+
         String car = baskets.purchase(basket);
-        
+
         if (!car.isEmpty()) {
             purchasedCarsType.setCustomCarTrans(XmlUtils.unmarshal(car, CustomCarType.class));
-            
+
             commerceResultTransType.setPurchasedCars(purchasedCarsType);
         }
-        
+
         return XmlUtils.marshal(commerceResultTransType);
     }
 }
