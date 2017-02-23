@@ -160,16 +160,24 @@ public class Default extends Router
     {
         return "";
     }
-    
-    public String statistics() {
+
+    public String statistics()
+    {
         return "<ArrayOfPersonaStats/>";
     }
-    
-    public String getrecentplayerlist() {
+
+    public String getrecentplayerlist()
+    {
         return "";
     }
-    
-    public String suggestiveSales() {
+
+    public String suggestiveSales()
+    {
         return "";
+    }
+
+    public String luckyDraw()
+    {
+        return "fileref:LuckyDraw/" + getLoggedPersonaId() + "/DoDraw.xml";
     }
 }
