@@ -1,14 +1,5 @@
 package me.leorblx.classicnfsw.http;
 
-import java.io.File;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Paths;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
 import me.leorblx.classicnfsw.core.HttpState;
 import me.leorblx.classicnfsw.core.Router;
 import me.leorblx.classicnfsw.core.XmlUtils;
@@ -19,9 +10,14 @@ import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.handler.gzip.GzipHandler;
 import org.eclipse.jetty.server.handler.gzip.GzipHttpOutputInterceptor;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.nio.charset.StandardCharsets;
+
 public class HttpSrv extends GzipHandler
 {
-
     public void handle(String target, Request baseRequest, HttpServletRequest request, HttpServletResponse response)
     {
         if ("/favicon.ico".equals(target))
@@ -29,9 +25,11 @@ public class HttpSrv extends GzipHandler
         System.out.println(baseRequest.toString());
         String[] targetSplitted = target.split("/");
         String className = "Default";
-        String methodName = "";
+        String methodName;
         String content = null;
 
+        
+        
         if (targetSplitted.length > 4) {
             className = targetSplitted[3];
             className = String.valueOf(Character.toUpperCase(className.charAt(0))).concat(className.substring(1));

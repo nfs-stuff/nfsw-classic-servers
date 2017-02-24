@@ -6,9 +6,13 @@ import me.leorblx.classicnfsw.core.Router;
 import me.leorblx.classicnfsw.core.XmlUtils;
 import me.leorblx.classicnfsw.jaxb.*;
 import me.leorblx.classicnfsw.xmpp.XmppSrv;
-import me.leorblx.classicnfsw.xmpp.jaxb.XMPP_MessageType;
 import me.leorblx.classicnfsw.xmpp.jaxb.XMPP_PowerupActivatedType;
 import me.leorblx.classicnfsw.xmpp.jaxb.XMPP_ResponseTypePowerupActivated;
+
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class Personas extends Router
 {
@@ -82,7 +86,7 @@ public class Personas extends Router
         commerceSessionResultTransType.setInvalidBasket("");
         commerceSessionResultTransType.setInventoryItems(new InventoryItemsType());
         commerceSessionResultTransType.setStatus("Success");
-        
+
         return XmlUtils.marshal(commerceSessionResultTransType);
     }
 
@@ -109,11 +113,51 @@ public class Personas extends Router
         String car = baskets.purchase(basket);
 
         if (!car.isEmpty()) {
-            purchasedCarsType.setCustomCarTrans(XmlUtils.unmarshal(car, CustomCarType.class));
+            final CustomCarType customCarTrans = XmlUtils.unmarshal(car, CustomCarType.class);
+
+            purchasedCarsType.setCustomCarTrans(customCarTrans);
 
             commerceResultTransType.setPurchasedCars(purchasedCarsType);
         }
 
         return XmlUtils.marshal(commerceResultTransType);
+    }
+
+    public String cars()
+    {
+        String input = readInputStream();
+        CustomCarType customCar = XmlUtils.unmarshal(input, CustomCarType.class);
+
+        CarSlotInfoTrans carslots = XmlUtils.unmarshal(
+                XmlUtils.getFromFile("www/nfsw/Engine.svc/personas/" + getLoggedPersonaId() + "/carslots.xml"),
+                CarSlotInfoTrans.class
+        );
+
+        CustomCarType find = carslots.getCarsOwnedByPersonaList().getCustomCarList().stream()
+                .filter(c -> c.getApiId() == customCar.getApiId())
+                .findFirst()
+                .orElse(null);
+
+        if (find != null) {
+            System.out.println(find);
+            int index = carslots.getCarsOwnedByPersonaList().getCustomCarList().indexOf(find);
+
+            find.setPerformanceParts(customCar.getPerformanceParts());
+            find.setVinyls(customCar.getVinyls());
+            find.setPaints(customCar.getPaints());
+            find.setVisualParts(customCar.getVisualParts());
+
+            carslots.getCarsOwnedByPersonaList().getCustomCarList().set(index, find);
+
+            try {
+                Files.write(Paths.get("www/nfsw/Engine.svc/personas/" + getLoggedPersonaId() + "/carslots.xml"), XmlUtils.marshal(carslots).getBytes(StandardCharsets.UTF_8));
+
+                return XmlUtils.marshal(find);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        return "";
     }
 }

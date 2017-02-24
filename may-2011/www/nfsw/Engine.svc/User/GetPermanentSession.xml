@@ -3,8 +3,8 @@
     <personas>
         <ProfileData>
             <bio i:nil="true"/>
-            <boost>100000</boost>
-            <cash>50039534</cash>
+            <boost>50000000</boost>
+            <cash>50000000</cash>
             <ccar>
                 <PersonaCCar>
                     <CCID>999999</CCID>
@@ -15,12 +15,12 @@
             </ccar>
             <clan>1</clan>
             <clanIcon>clanIcon</clanIcon>
-            <displayName>FLAMINGPEACOCK</displayName>
+            <displayName>elitepvpers</displayName>
             <driverExpLevel>50</driverExpLevel>
             <driverIcon>12</driverIcon>
             <language i:nil="true"/>
             <level>50</level>
-            <nickName>FlamingPeacock</nickName>
+            <nickName>elitepvpers</nickName>
             <percentToLevel>7.288889</percentToLevel>
             <personaId>100</personaId>
             <raceTickets>100</raceTickets>
@@ -28,33 +28,6 @@
             <rep>3789</rep>
             <repAtCurrentLevel>164</repAtCurrentLevel>
             <status>ACTIVE</status>
-        </ProfileData>
-        <ProfileData>
-            <bio i:nil="true"/>
-            <boost>100000</boost>
-            <cash>50000000</cash>
-            <ccar>
-                <PersonaCCar>
-                    <CCID>999999</CCID>
-                    <Heat>1</Heat>
-                    <IsDefault>true</IsDefault>
-                    <PersonaId>200</PersonaId>
-                </PersonaCCar>
-            </ccar>
-            <clan>1</clan>
-            <clanIcon>clanIcon</clanIcon>
-            <displayName>BETASERVER</displayName>
-            <driverExpLevel>50</driverExpLevel>
-            <driverIcon>17</driverIcon>
-            <language i:nil="true"/>
-            <level>60</level>
-            <nickName>BetaServer</nickName>
-            <percentToLevel>29.288889</percentToLevel>
-            <personaId>200</personaId>
-            <raceTickets>100</raceTickets>
-            <rating>950.94999999999993</rating>
-            <rep>3789</rep>
-            <repAtCurrentLevel>164</repAtCurrentLevel>
         </ProfileData>
     </personas>
     <user>

@@ -74,14 +74,14 @@ public class Default extends Router
         stringBuilder.append("    <string>SCENERY_GROUP_CHRISTMAS</string>\n");
         stringBuilder.append("  </activatedHolidaySceneryGroups>\n");
         stringBuilder.append("  <activeHolidayIds>\n");
-        stringBuilder.append("    <long>0</long>\n");
+        stringBuilder.append("    <long>3</long>\n");
         stringBuilder.append("  </activeHolidayIds>\n");
         stringBuilder.append("  <disactivatedHolidaySceneryGroups>\n");
         stringBuilder.append("    <string>SCENERY_GROUP_CHRISTMAS_DISABLE</string>\n");
         stringBuilder.append("  </disactivatedHolidaySceneryGroups>\n");
         stringBuilder.append("  <firstTimeLogin>false</firstTimeLogin>\n");
         stringBuilder.append("  <maxLevel>60</maxLevel>\n");
-        stringBuilder.append("  <starterPackApplied>false</starterPackApplied>\n");
+        stringBuilder.append("  <starterPackApplied>true</starterPackApplied>\n");
         stringBuilder.append("  <userId>" + getUserId() + "</userId>\n");
         stringBuilder.append("</User_Settings>");
 
@@ -153,7 +153,7 @@ public class Default extends Router
 
     public String skills()
     {
-        return "<ArrayOfSkillDef/>";
+        return "fileref:Skills.xml";
     }
 
     public String setusersettings()
@@ -179,5 +179,9 @@ public class Default extends Router
     public String luckyDraw()
     {
         return "fileref:LuckyDraw/" + getLoggedPersonaId() + "/DoDraw.xml";
+    }
+    
+    public String performanceUpgrades() {
+        return "<ArrayOfPerformanceUpgradeTrans/>";
     }
 }
